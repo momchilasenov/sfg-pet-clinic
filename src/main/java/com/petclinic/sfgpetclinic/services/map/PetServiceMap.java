@@ -1,14 +1,15 @@
 package com.petclinic.sfgpetclinic.services.map;
 
-import com.petclinic.sfgpetclinic.models.Person;
+import com.petclinic.sfgpetclinic.models.Pet;
 import com.petclinic.sfgpetclinic.services.CrudService;
+import com.petclinic.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PersonServiceMap extends AbstractMapService<Person, Long> implements CrudService<Person, Long>
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService
 {
   @Override
-  public Set<Person> findAll()
+  public Set<Pet> findAll()
   {
     return super.findAll();
   }
@@ -20,19 +21,19 @@ public class PersonServiceMap extends AbstractMapService<Person, Long> implement
   }
 
   @Override
-  public void delete(Person object)
+  public void delete(Pet object)
   {
     super.delete(object);
   }
 
   @Override
-  public Person save(Person object)
+  public Pet save(Pet object)
   {
     return super.save(object.getId(), object);
   }
 
   @Override
-  public Person findById(Long id)
+  public Pet findById(Long id)
   {
     return super.findById(id);
   }
