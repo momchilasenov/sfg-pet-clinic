@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 .gitignore
 .xml
+.properties
 .jar
 mvnw
 mvnw.cmd
