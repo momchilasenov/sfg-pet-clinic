@@ -1,6 +1,6 @@
 package com.petclinic.sfgpetclinic.models;
 
-public class Speciality extends BaseEntity
+public class Specialty extends BaseEntity
 {
   private String description;
 
@@ -9,7 +9,7 @@ public class Speciality extends BaseEntity
     return description;
   }
 
-  public Speciality setDescription(String description)
+  public Specialty setDescription(String description)
   {
     this.description = description;
     return this;
