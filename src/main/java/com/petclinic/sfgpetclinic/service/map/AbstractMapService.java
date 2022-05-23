@@ -1,6 +1,6 @@
-package com.petclinic.sfgpetclinic.services.map;
+package com.petclinic.sfgpetclinic.service.map;
 
-import com.petclinic.sfgpetclinic.models.BaseEntity;
+import com.petclinic.sfgpetclinic.model.BaseEntity;
 
 import java.util.*;
 

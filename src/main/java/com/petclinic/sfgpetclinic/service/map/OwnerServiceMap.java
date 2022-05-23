@@ -1,10 +1,10 @@
-package com.petclinic.sfgpetclinic.services.map;
+package com.petclinic.sfgpetclinic.service.map;
 
-import com.petclinic.sfgpetclinic.models.Owner;
-import com.petclinic.sfgpetclinic.models.Pet;
-import com.petclinic.sfgpetclinic.services.OwnerService;
-import com.petclinic.sfgpetclinic.services.PetService;
-import com.petclinic.sfgpetclinic.services.PetTypeService;
+import com.petclinic.sfgpetclinic.model.Owner;
+import com.petclinic.sfgpetclinic.model.Pet;
+import com.petclinic.sfgpetclinic.service.OwnerService;
+import com.petclinic.sfgpetclinic.service.PetService;
+import com.petclinic.sfgpetclinic.service.PetTypeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

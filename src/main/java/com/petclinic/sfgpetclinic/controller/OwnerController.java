@@ -1,6 +1,6 @@
-package com.petclinic.sfgpetclinic.controllers;
+package com.petclinic.sfgpetclinic.controller;
 
-import com.petclinic.sfgpetclinic.services.OwnerService;
+import com.petclinic.sfgpetclinic.service.OwnerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

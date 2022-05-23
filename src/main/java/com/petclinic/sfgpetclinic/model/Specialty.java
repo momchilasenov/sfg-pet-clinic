@@ -1,4 +1,4 @@
-package com.petclinic.sfgpetclinic.models;
+package com.petclinic.sfgpetclinic.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
