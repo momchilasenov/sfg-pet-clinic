@@ -1,13 +1,24 @@
 package com.petclinic.sfgpetclinic.models;
 
+import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+@Entity
+@Table(name = "owners")
 public class Owner extends Person
 {
+  @Column(name = "address")
   private String   address;
+
+  @Column(name = "city")
   private String   city;
+
+  @Column(name = "telephone")
   private String   telephone;
+
+  //1 owner can have many pets. If an owner is deleted, changes are cascaded and all pets are deleted
+  @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
   private Set<Pet> pets = new HashSet<>();
 
   public String getAddress()
